@@ -1,6 +1,6 @@
 body{
-    background: #000;
-    color: #fff;
+    background: darkgrey;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,4 +27,21 @@ a img{
 
 a img:hover {
     transform: scale(1.2);
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+}
+
+footer{
+    margin-top: auto;
 }
