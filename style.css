@@ -1,0 +1,30 @@
+body{
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+a img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+a img:hover {
+    transform: scale(1.2);
+}
