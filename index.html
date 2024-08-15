@@ -1,31 +1,117 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Quentin Berthet</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <H1>Welcome to quentinberthet.ch</H1>
-        <p>This site is currently under construction
-            <br>
-            Don't hesitate, visit it very soon!
-        </p>
-        <h3>Check my socials</h3>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quentin Berthet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- En-tête -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#media">Médias</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Section Accueil -->
+<section id="menu" class="section">
+    <h1>Quentin Berthet</h1>
+    <p>Développeur Web & Application</p>
+    <img src="Assets/quentinBerthet.jpeg" alt="Quentin Berthet" class="imgQUB">
+</section>
+
+<!-- Section À propos -->
+<section id="about" class="section">
+    <h2>About me</h2>
+    <p>I am currently in the 3rd year of apprenticeship at "La Vaudoise Assurance" as an application developer.</p>
+</section>
+
+<!-- Section Compétences -->
+<section id="skills" class="section">
+    <h2>Language & Framework & techno</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>C#</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Angular</li>
+        <li>MongoDB</li>
+        <li>.NET Core</li>
+        <li>SQL Server Integration Services (SSIS)</li>
+        <li>Entity Framework</li>
+        <li>NLog</li>
+        <li>WPF</li>
+        <li>SQL</li>
+        <li>Git</li>
+    </ul>
+</section>
+
+<!-- Section Projets -->
+<section id="projects" class="section">
+    <h2>Projets</h2>
+    <div class="project">
+        <h3>GradesCalculator</h3>
+        <p>A package to calculate an average with different weights for each note</p>
         <ul>
             <li>
-                <a href="https://www.linkedin.com/in/quentin-berthet/" title="LinkedIn">
-                    <img src="Assets/linkedin.png" alt="LinkedIn">
+                <a href="https://github.com/BerthetQuentin/GradesCalculator" title="repo GitHub">
+                    <img src="Assets/github.png" alt="repo GitHub">
                 </a>
             </li>
             <li>
-                <a href="https://github.com/BerthetQuentin" title="github">
-                    <img src="Assets/github.png" alt="github">
+                <a href="https://pypi.org/project/gradescalculator/" title="repo pypi">
+                    <img src="Assets/pip.png" alt="repo pypi">
                 </a>
             </li>
         </ul>
-    </body>
-    <footer>
-        <p>&copy; 2024 Quentin Berthet. All rights reserved.</p>
-    </footer>
+    </div>
+    <div class="project">
+        <h3>node-ChatApp</h3>
+        <p>A chat application built with node web socket </p>
+        <ul>
+            <li>
+                <a href="https://github.com/BerthetQuentin/node_chatApp" title="repo GitHub">
+                    <img src="Assets/github.png" alt="repo GitHub">
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
 
+<section id="media" class="section">
+    <h2>Medias</h2>
+    <div >
+        <ul>
+            <li>
+                <a href="https://github.com/BerthetQuentin">
+                    <img src="Assets/github.png" alt="github">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/quentin-berthet/">
+                    <img src="Assets/linkedin.png" alt="linkedin">
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    <p>&copy; 2024 Quentin Berthet. all rights reserved.</p>
+</footer>
+
+</body>
 </html>
