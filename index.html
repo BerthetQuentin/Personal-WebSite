@@ -1,31 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Quentin Berthet</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <H1>Welcome to quentinberthet.ch</H1>
-        <p>This site is currently under construction
-            <br>
-            Don't hesitate, visit it very soon!
-        </p>
-        <h3>Check my socials</h3>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- En-tête -->
+<header>
+    <nav>
         <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/quentin-berthet/" title="LinkedIn">
-                    <img src="Assets/linkedin.png" alt="LinkedIn">
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/BerthetQuentin" title="github">
-                    <img src="Assets/github.png" alt="github">
-                </a>
-            </li>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#media">Médias</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-    </body>
-    <footer>
-        <p>&copy; 2024 Quentin Berthet. All rights reserved.</p>
-    </footer>
+    </nav>
+</header>
 
+<!-- Section Accueil -->
+<section id="home" class="section">
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Développeur Web & Application</p>
+</section>
+
+<!-- Section À propos -->
+<section id="about" class="section">
+    <h2>À propos de moi</h2>
+    <p>Je suis un développeur passionné.</p>
+</section>
+
+<!-- Section Compétences -->
+<section id="skills" class="section">
+    <h2>Mes Compétences</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <!-- Ajoutez d'autres compétences ici -->
+    </ul>
+</section>
+
+<!-- Section Projets -->
+<section id="projects" class="section">
+    <h2>Projets</h2>
+    <div class="project">
+        <h3>Projet 1</h3>
+        <p>Description du projet 1.</p>
+    </div>
+    <div class="project">
+        <h3>Projet 2</h3>
+        <p>Description du projet 2.</p>
+    </div>
+    <!-- Ajoutez d'autres projets ici -->
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="section">
+    <h2>Contactez-moi</h2>
+    <form action="mailto:quentin@berthet.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Votre nom">
+        <input type="email" name="email" placeholder="Votre email">
+        <textarea name="message" placeholder="Votre message"></textarea>
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    <p>&copy; 2024 Quentin Berthet. Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
