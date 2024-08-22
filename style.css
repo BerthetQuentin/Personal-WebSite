@@ -166,3 +166,12 @@ footer {
 .imgQUB:hover {
     transform: scale(1.1);
 }
+
+#skills img{
+    height: 25px;
+    transition: transform 0.2s ease;
+}
+
+#skills img:hover {
+    transform: scale(1.2);
+}
