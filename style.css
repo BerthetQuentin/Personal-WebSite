@@ -49,6 +49,11 @@ ul li {
     padding: 10px;
     border-radius: 5px;
 }
+.navbar{
+    background-color: #dcdcdc;
+    padding: 10px ;
+    border-radius: 5px;
+}
 
 .project, .media-item{
     background-color: #fff;
