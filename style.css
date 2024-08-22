@@ -122,16 +122,12 @@ ul li {
     display: inline-block;
     margin: 10px 20px;
     padding: 10px;
-<<<<<<< Updated upstream
-    background-color: #eee;
-=======
     border-radius: 5px;
 }
 
 .navbar {
     background-color: #dcdcdc;
     padding: 10px;
->>>>>>> Stashed changes
     border-radius: 5px;
 }
 
