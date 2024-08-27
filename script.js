@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Optionally, close the mobile menu if clicking outside of it
+    // Close the mobile menu if clicking outside of it
     document.addEventListener('click', function(event) {
         if (!navbarMobileMenu.contains(event.target) && event.target !== menuToggle) {
             navbarMobileMenu.style.display = 'none';
