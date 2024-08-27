@@ -57,7 +57,6 @@ header {
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 60px; /* Ajustez si nécessaire */
     left: 0;
     width: 100%;
     background-color: #333;
@@ -71,7 +70,7 @@ header {
 .navbar-mobile-menu li a {
     display: block;
     padding: 15px;
-    color: #fff;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -133,11 +132,11 @@ ul li {
 
 .project, .media-item {
     background-color: #fff;
-    margin: 20px auto; /* Center align the projects and media items */
+    margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px; /* Optional: to prevent too wide content */
+    max-width: 800px;
 }
 
 a img {
